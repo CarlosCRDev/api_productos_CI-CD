@@ -10,7 +10,6 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>api_productos</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>api_productos</name>
 	<description>Demo Project for Fresco</description>
 	<url/>
