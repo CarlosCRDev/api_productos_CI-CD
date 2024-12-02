@@ -8,4 +8,4 @@ WORKDIR /app
 EXPOSE 8080
 
 #Command to run the application
-CMD["java", "-jar", "api_productos.jar"]
+CMD ["java", "-jar", "api_productos.jar"]
