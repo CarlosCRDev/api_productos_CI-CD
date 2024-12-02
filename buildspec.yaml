@@ -33,4 +33,4 @@ phases:
       - cat imagedefinitions.json
 artifacts:
   - imagedefinitions.json
-  - target/api-productos
+  - target/api_productos.jar
