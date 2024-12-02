@@ -26,6 +26,11 @@ public class ProductoController {
 	public List<Producto> catalogo(){
 		return productoService.catalogo();
 	}
+
+	@GetMapping("/welcome")
+	public String welcome(){
+		return "Welcome people!!!";
+	}
 	
 	@GetMapping("/{categoria}")
 	public List<Producto> productosCategoria(@PathVariable("categoria") String categoria){
